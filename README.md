@@ -48,7 +48,7 @@ The dataset is included in this repository for simplicity.
 
 This simulator is based on a full analytical project:
 
-(cola aqui o link do seu outro projeto)
+[(https://github.com/Vanessa22400/Preventive_Health_Analytics/tree/main/data)]
 
 ---
 
