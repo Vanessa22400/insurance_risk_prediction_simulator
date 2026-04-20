@@ -2,9 +2,7 @@
 
 This project is a simple interactive application built to explore how lifestyle and demographic factors influence healthcare costs and risk profiles.
 
-It is based on a broader data analysis project, but here the focus is different: instead of looking at the data from a technical perspective, the goal is to make these insights more accessible and intuitive to interact with.
-
-The idea is to allow someone to explore different scenarios and better understand how factors such as smoking, BMI and age can impact long-term outcomes.
+It combines predictive modeling with interactive visualizations to make these insights easier to understand and explore.
 
 ---
 
@@ -12,8 +10,8 @@ The idea is to allow someone to explore different scenarios and better understan
 
 - Estimates annual healthcare costs using a machine learning model
 - Provides a simple risk score based on key variables
-- Allows users to interact with inputs and explore different profiles
-- Translates analytical results into a more intuitive format
+- Allows users to interact with inputs and explore different scenarios
+- Includes visualizations to compare individual results with the overall population
 
 ---
 
@@ -21,9 +19,7 @@ The idea is to allow someone to explore different scenarios and better understan
 
 This application was created as a continuation of a more in-depth analysis.
 
-While the original project focuses on understanding cost drivers and risk patterns through data analysis and modeling, this version aims to make those insights easier to visualize and interact with.
-
-It also reflects an interest in going beyond analysis, building something closer to a real-world application.
+While the original project focuses on understanding cost drivers through data analysis, this version aims to make those insights more accessible and intuitive.
 
 ---
 
@@ -31,26 +27,28 @@ It also reflects an interest in going beyond analysis, building something closer
 
 - Random Forest Regressor  
 - R² ≈ 0.86  
-- Main drivers identified:
+- Main drivers:
   - Smoking
   - BMI
   - Age  
 
 ---
 
+## Dataset
+
+This app uses a public dataset:
+
+https://www.kaggle.com/datasets/mirichoi0218/insurance
+
+The dataset is included in this repository for simplicity.
+
+---
+
 ## Related project
 
-This simulator is based on the following project:
+This simulator is based on a full analytical project:
 
-Insurance Risk Analytics: Cost Drivers, Risk Segmentation and Predictive Modeling  
-(you can add the GitHub link here)
-
-The original project includes:
-- Exploratory Data Analysis
-- Risk segmentation
-- Clustering (K-Means)
-- Causal inference (Propensity Score Matching)
-- Predictive modeling (regression and classification)
+(cola aqui o link do seu outro projeto)
 
 ---
 
@@ -58,6 +56,7 @@ The original project includes:
 
 ```bash
 streamlit run app.py
+```
 
 ---
 
@@ -66,6 +65,7 @@ streamlit
 pandas
 scikit-learn
 joblib
+plotly
 
 
 ## Note
