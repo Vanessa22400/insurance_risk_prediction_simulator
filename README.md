@@ -23,6 +23,8 @@ This application was created as a continuation of a more in-depth analysis.
 
 While the original project focuses on understanding cost drivers through data analysis, this version aims to make those insights more accessible and intuitive.
 
+It also connects to a broader exploration of preventive strategies, highlighting how risk factors may influence long-term outcomes and awareness.
+
 ---
 
 ## Model
