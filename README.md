@@ -2,7 +2,9 @@
 
 This project is a simple interactive application built to explore how lifestyle and demographic factors influence healthcare costs and risk profiles.
 
-It combines predictive modeling with interactive visualizations to make these insights easier to understand and explore.
+It also aims to highlight how these factors relate to long-term outcomes, supporting a more preventive and awareness-driven perspective.
+
+It combines predictive modeling with interactive visualizations to make these insights easier to understand, explore and connect with real-world implications.
 
 ---
 
